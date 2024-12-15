@@ -1,0 +1,68 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    line-height: 20px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight {
+    color: orange;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.profile {
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.about{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2.5%;
+    padding-top: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, red, crimson);
+    color:aliceblue;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 8px 30px;;
+}
+.single-exp{background-color: white;
+    box-shadow: 10px 10px 20px dimgray;
+    border-radius: 5px;
+    height: 60%;
+}
+.exp-bg{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: left;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, red, rgb(231, 140, 158));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#baby-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, lightblue);
+    border-image-slice: 1;
+}
